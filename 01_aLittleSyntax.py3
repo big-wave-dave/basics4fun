@@ -31,4 +31,7 @@ age = 26
 ageFloat = 26.334
 # Man, it's tough getting old.
 
-
+# This next bit lets us print variables right inside a statement!
+# It's like what we saw in js!
+exactAge = ageFloat - age
+print(f"This is how much older than {age} I really am: {exactAge}")
