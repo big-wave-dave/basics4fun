@@ -11,10 +11,24 @@ if True:
     # Everything in this block MUST be indented the same or it will not be considered the same block!
     print("This is inside the if block")
 print("This is outside the if block!")
-
 """
 This multiline comment
 tells you that
 the previous line is not in the "if" statement block!
 """
+
+# Variables
+"""
+Unlike variables in other languages we've looked at like c++, the python
+interpreter doesn't need to be told what kind of variable it is or even
+when you're declaring it! This makes things a little trickier for some
+things BUT it also makes a few other things a little easier!
+"""
+# To dimension a string, you just need to list the variable name and assign a value!
+name = "bigwavedave"
+# To dimension an int or even a float, you just list the name and the value!
+age = 26
+ageFloat = 26.334
+# Man, it's tough getting old.
+
 
