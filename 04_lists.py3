@@ -7,13 +7,14 @@ myValuableList = [0, 1, 2, 3, 4, "string", 5, '5', "eggs", 3.14]
 
 print(f"{myValuableList[5]} is the 6th element in the list.")
 
-# Now lets chance the element!
+# Now lets change the element!
 myValuableList[5] = "sixth"
 print(f"{myValuableList[5]} is now the 6th element in the list.")
 
 # What if we wanted to condense that code so we didn't need two print statements?
 iter = 0
 while iter <= 1:
-    print(f"{myValuableList[6]} is the 6th element in the list.")
+    print(f"{myValuableList[5]} is the 6th element in the list.")
+    myValuableList[5] = "6th"
     iter += 1
 
